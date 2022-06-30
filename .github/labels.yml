@@ -1,0 +1,43 @@
+# 0系(f0dc59) - 外部コントリビューター向け・以下のラベルのカテゴリーに一致しないもの
+# Close系(999891) - クローズする際の理由を指定できるもの
+# Feedback系(aecaeb) - 本来はユーザー・顧客向けのものとして作るべきラベル (m2en.devでは使用していません)
+# Priority系(fc032c, f7b2bd) - 優先度を指定できるもの
+# Problem系(ff0026) - 問題系を指定するもの
+# Type系(ee9cff) - 該当Issue及び、該当PullRequestのタイプを指定するもの
+# それ以外(adff9c) - 0系にも一致しないプロジェクト固有のラベル
+
+- name: '📡help wanted'
+  color: 'f0dc59'
+- name: '📡duplicate'
+  description: 'This issue or pull request already exists'
+  color: 'f0dc59'
+- name: '📡invalid'
+  description: 'This issue or pull request is invalid'
+  color: 'f0dc59'
+- name: '📡wrong'
+  description: 'This issue or pull request is wrong'
+  color: 'f0dc59'
+- name: '🏃high'
+  color: 'fc032c'
+- name: '🚶low'
+  color: 'f7b2bd'
+- name: '🐛bug'
+  color: '89d6f0'
+- name: '👮security'
+  color: 'ff0026'
+- name: '👮security(CVE)'
+  color: 'ff0026'
+- name: '✨design'
+  color: 'ee9cff'
+- name: '✨improvement'
+  color: 'ee9cff'
+- name: '✨enhancement'
+  color: 'ee9cff'
+- name: '✨documentation'
+  color: 'ee9cff'
+- name: '🔮workflow (gh-actions)'
+  color: 'ee9cff'
+- name: '🔮dependabot: update'
+  color: 'ee9cff'
+- name: '🔮dependabot: security'
+  color: 'ee9cff'

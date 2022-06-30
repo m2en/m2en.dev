@@ -1,7 +1,6 @@
 # m2en.dev
 
 [![eslint](https://github.com/m2en/m2en.dev/actions/workflows/eslint.yml/badge.svg)](https://github.com/m2en/m2en.dev/actions/workflows/eslint.yml)
-
 [![prettier](https://github.com/m2en/m2en.dev/actions/workflows/prettier.yml/badge.svg)](https://github.com/m2en/m2en.dev/actions/workflows/prettier.yml)
 
 ✨ my portfolio

@@ -1,0 +1,25 @@
+{
+  "name": "m2en.dev",
+  "version": "0.0.1",
+  "description": "my portfolio",
+  "main": "index.js",
+  "author": "m2en <me@merunno.dev>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^12.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.14",
+    "typescript": "^4.7.4"
+  }
+}

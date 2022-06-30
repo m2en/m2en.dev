@@ -10,7 +10,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --write \"src/**/**/*.{ts,tsx}\"",
+    "check": "prettier --check \"src/**/**/*.{ts,tsx}\""
   },
   "dependencies": {
     "next": "^12.2.0",

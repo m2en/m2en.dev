@@ -1,0 +1,26 @@
+name: prettier
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "src/**/**/*.ts"
+      - "src/**/**/*.tsx"
+  pull_request:
+    paths:
+      - "src/**/**/*.ts"
+      - "src/**/**/*.tsx"
+
+jobs:
+  check:
+    name: prettier check
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: install packages
+        run: yarn
+      - name: prettier
+        run: yarn check

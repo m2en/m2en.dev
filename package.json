@@ -10,7 +10,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --write \"src/**/**/*.{ts,tsx}\"",
+    "check": "prettier --check \"src/**/**/*.{ts,tsx}\""
   },
   "dependencies": {
     "next": "^12.2.0",
@@ -20,6 +22,10 @@
   "devDependencies": {
     "@types/node": "^18.0.0",
     "@types/react": "^18.0.14",
+    "eslint": "8.18.0",
+    "eslint-config-next": "12.2.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1",
     "typescript": "^4.7.4"
   }
 }

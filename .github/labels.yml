@@ -22,7 +22,7 @@
 - name: '🚶low'
   color: 'f7b2bd'
 - name: '🐛bug'
-  color: '89d6f0'
+  color: 'ff0026'
 - name: '👮security'
   color: 'ff0026'
 - name: '👮security(CVE)'

@@ -15,6 +15,10 @@
     "check": "prettier --check \"src/**/**/*.{ts,tsx}\""
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.2.3",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "framer-motion": "^6",
     "iconoir-react": "^5.1.4",
     "next": "^12.2.0",
     "react": "^18.2.0",
